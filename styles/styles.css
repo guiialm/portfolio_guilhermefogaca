@@ -50,6 +50,13 @@ a {
   font-family: inherit;
 }
 
+button #enviar {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
 header {
   min-height: 100vh;
   color: var(--color-white);
@@ -628,7 +635,9 @@ section {
 }
 
 .main-btn {
+  background-color: transparent;
   border-radius: 30px;
+  margin-bottom: 30px;
   color: inherit;
   font-weight: 600;
   position: relative;
